@@ -1,0 +1,16 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/HappyDNS" "${PODS_CONFIGURATION_BUILD_DIR}/Introspect" "${PODS_CONFIGURATION_BUILD_DIR}/ModalPresenter" "${PODS_CONFIGURATION_BUILD_DIR}/Qiniu" "${PODS_ROOT}/AgoraAudio_iOS" "${PODS_ROOT}/RongCloudIM/RongCloudIM" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/AIAEC" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/AINS" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/AudioBeauty" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/DRM" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/RtcBasic" "${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/SpatialAudio" "${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/ChatRoom" "${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/CustomerService" "${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/Discussion" "${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/IMLib" "${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/IMLibCore" "${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/PublicService"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/HappyDNS/HappyDNS.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Introspect/Introspect.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/ModalPresenter/ModalPresenter.framework/Headers" "${PODS_CONFIGURATION_BUILD_DIR}/Qiniu/Qiniu.framework/Headers"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) /usr/lib/swift '@executable_path/Frameworks' '@loader_path/Frameworks'
+LIBRARY_SEARCH_PATHS = $(inherited) "${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
+OTHER_LDFLAGS = $(inherited) -ObjC -l"resolv" -l"z" -framework "AgoraAiEchoCancellationExtension" -framework "AgoraAiNoiseSuppressionExtension" -framework "AgoraAudioBeautyExtension" -framework "AgoraCore" -framework "AgoraDrmLoaderExtension" -framework "AgoraRtcKit" -framework "AgoraSoundTouch" -framework "AgoraSpatialAudioExtension" -framework "Agorafdkaac" -framework "HappyDNS" -framework "Introspect" -framework "ModalPresenter" -framework "Qiniu" -framework "RongChatRoom" -framework "RongCustomerService" -framework "RongDiscussion" -framework "RongIMLib" -framework "RongIMLibCore" -framework "RongPublicService" -framework "UIKit"
+OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

@@ -1,0 +1,20 @@
+${PODS_ROOT}/Target Support Files/Pods-VoiceChatRoom/Pods-VoiceChatRoom-frameworks.sh
+${BUILT_PRODUCTS_DIR}/HappyDNS/HappyDNS.framework
+${BUILT_PRODUCTS_DIR}/Introspect/Introspect.framework
+${BUILT_PRODUCTS_DIR}/ModalPresenter/ModalPresenter.framework
+${BUILT_PRODUCTS_DIR}/Qiniu/Qiniu.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/AIAEC/AgoraAiEchoCancellationExtension.framework/AgoraAiEchoCancellationExtension
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/AINS/AgoraAiNoiseSuppressionExtension.framework/AgoraAiNoiseSuppressionExtension
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/AudioBeauty/AgoraAudioBeautyExtension.framework/AgoraAudioBeautyExtension
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/DRM/AgoraDrmLoaderExtension.framework/AgoraDrmLoaderExtension
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/RtcBasic/AgoraRtcKit.framework/AgoraRtcKit
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/RtcBasic/AgoraCore.framework/AgoraCore
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/RtcBasic/Agorafdkaac.framework/Agorafdkaac
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/RtcBasic/AgoraSoundTouch.framework/AgoraSoundTouch
+${PODS_XCFRAMEWORKS_BUILD_DIR}/AgoraAudio_iOS/SpatialAudio/AgoraSpatialAudioExtension.framework/AgoraSpatialAudioExtension
+${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/ChatRoom/RongChatRoom.framework/RongChatRoom
+${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/CustomerService/RongCustomerService.framework/RongCustomerService
+${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/Discussion/RongDiscussion.framework/RongDiscussion
+${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/IMLib/RongIMLib.framework/RongIMLib
+${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/IMLibCore/RongIMLibCore.framework/RongIMLibCore
+${PODS_XCFRAMEWORKS_BUILD_DIR}/RongCloudIM/PublicService/RongPublicService.framework/RongPublicService

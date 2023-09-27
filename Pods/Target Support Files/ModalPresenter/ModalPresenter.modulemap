@@ -1,0 +1,6 @@
+framework module ModalPresenter {
+  umbrella header "ModalPresenter-umbrella.h"
+
+  export *
+  module * { export * }
+}

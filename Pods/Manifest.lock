@@ -1,0 +1,62 @@
+PODS:
+  - AgoraAudio_iOS (4.2.0):
+    - AgoraAudio_iOS/AIAEC (= 4.2.0)
+    - AgoraAudio_iOS/AINS (= 4.2.0)
+    - AgoraAudio_iOS/AudioBeauty (= 4.2.0)
+    - AgoraAudio_iOS/DRM (= 4.2.0)
+    - AgoraAudio_iOS/RtcBasic (= 4.2.0)
+    - AgoraAudio_iOS/SpatialAudio (= 4.2.0)
+  - AgoraAudio_iOS/AIAEC (4.2.0)
+  - AgoraAudio_iOS/AINS (4.2.0)
+  - AgoraAudio_iOS/AudioBeauty (4.2.0)
+  - AgoraAudio_iOS/DRM (4.2.0)
+  - AgoraAudio_iOS/RtcBasic (4.2.0)
+  - AgoraAudio_iOS/SpatialAudio (4.2.0)
+  - HappyDNS (1.0.2)
+  - Introspect (0.2.3)
+  - ModalPresenter (0.1.0):
+    - Introspect (~> 0.1)
+  - Qiniu (8.4.4):
+    - HappyDNS (~> 1.0.2)
+  - RongCloudIM/ChatRoom (5.3.6):
+    - RongCloudIM/IMLibCore
+  - RongCloudIM/CustomerService (5.3.6):
+    - RongCloudIM/IMLibCore
+  - RongCloudIM/Discussion (5.3.6):
+    - RongCloudIM/IMLibCore
+  - RongCloudIM/IMLib (5.3.6):
+    - RongCloudIM/ChatRoom
+    - RongCloudIM/CustomerService
+    - RongCloudIM/Discussion
+    - RongCloudIM/IMLibCore
+    - RongCloudIM/PublicService
+  - RongCloudIM/IMLibCore (5.3.6)
+  - RongCloudIM/PublicService (5.3.6):
+    - RongCloudIM/IMLibCore
+
+DEPENDENCIES:
+  - AgoraAudio_iOS
+  - ModalPresenter
+  - Qiniu (~> 8.4.1)
+  - RongCloudIM/IMLib (~> 5.3.6)
+
+SPEC REPOS:
+  trunk:
+    - AgoraAudio_iOS
+    - HappyDNS
+    - Introspect
+    - ModalPresenter
+    - Qiniu
+    - RongCloudIM
+
+SPEC CHECKSUMS:
+  AgoraAudio_iOS: c2765122890888180e79b0ebc1a2d7f17440184a
+  HappyDNS: 75eed16b27c6c3abccea34ac349ab7b7e954b25b
+  Introspect: 6917895ed34004271bc8d75a75db6c07839fa971
+  ModalPresenter: c7d9fc862e757b3107302feb2be6d2e9c1cd204a
+  Qiniu: 60ba88dadb712bcf1fb2d5e50c037b073ab7df2a
+  RongCloudIM: 7e86f1ff7081f9de9db0ff8c57f66a9b9a606271
+
+PODFILE CHECKSUM: 3994722ecca85ebf521ec6518961753e63612b17
+
+COCOAPODS: 1.12.1
